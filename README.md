@@ -128,7 +128,6 @@ these data had been used for other studies before. Ethical aspects (including et
 approval, informed consent) and data protection aspects (e.g. employed strategies for
 de-identification) should be laid out. Ideally, the data should be provided in a repository.
 Notably, any code (see below) should so, too (e.g. GitHub, GitLab, etc.).
-
 Dental datasets are oftentimes relatively small and narrow, which is why dental
 researchers have used within-sample validation as one means for demonstrating the
 value of the developed AI models. If any kind of hold-out, external or temporally separate
@@ -141,6 +140,7 @@ systematic differences between the data in each partition, and if so, why. A tab
 of the different partitions’ characteristics can be helpful. If any kind of covariates were
 used for modelling, it should be made clear here which ones, and when and how they
 were collected and measured.
+
 a. The identification, recruitment and inclusion of eligible data should be clarified.
 Inclusion and exclusion criteria, specifically the case definition (symptoms,
 characteristics) or criteria related to data type or quality, the data source location
