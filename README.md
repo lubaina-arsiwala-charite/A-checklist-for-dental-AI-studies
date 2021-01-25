@@ -72,6 +72,7 @@ mind who will employ, commission, receive or pay for the application which may b
 developed using the model.
 
 Reporting
+
 A range of items should be reported. Note that it may not be necessary to expand on each item
 in each study report, but that all items should be considered and, if not presented, this absence
 should be justified.
