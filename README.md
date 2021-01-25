@@ -167,6 +167,7 @@ or any other tools.
 d. If any data were missing (e.g. covariates etc.), it should be made clear how they
 were handled. Researchers should consider the bias that missing, replaced or
 imputed data might introduce.
+
 15. Reference test: A major difficulty in AI studies is the construction of the reference test.
 The case definition and any kind of grading schemes for sub-types should be defined, if
 possible using accepted disease ontologies. The test threshold (positive cutoff), if
