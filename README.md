@@ -128,6 +128,7 @@ these data had been used for other studies before. Ethical aspects (including et
 approval, informed consent) and data protection aspects (e.g. employed strategies for
 de-identification) should be laid out. Ideally, the data should be provided in a repository.
 Notably, any code (see below) should so, too (e.g. GitHub, GitLab, etc.).
+
 Dental datasets are oftentimes relatively small and narrow, which is why dental
 researchers have used within-sample validation as one means for demonstrating the
 value of the developed AI models. If any kind of hold-out, external or temporally separate
