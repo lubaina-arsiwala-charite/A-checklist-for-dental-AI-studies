@@ -151,11 +151,13 @@ end of accrual; and, if applicable, end of follow-up, should be specified. The
 sampling strategy (consecutive, random, or convenience) should be laid out and
 justified. The number of centers, patients, datapoints and any meta-data should
 be presented to gauge the representativeness of the data.
+
 b. It is relevant to consider if data protections standards in the US (HIPAA) or the
 EU (GDPR), or other relevant jurisdictions have been fulfilled, including
 appropriate institutional review if required. De-identification of dental datasets
 (especially imagery) is often considered difficult., e.g. clinical reports or facial
 profiles can allow identification.
+
 c. In almost all studies the raw data need to be extracted, transposed and loaded
 into machine-readable formats. Often the data originally stems from patient
 management systems or image databases (e.g. PACS). Hence, data extraction
@@ -164,6 +166,7 @@ For imagery, elaborate on the use of normalization, change in bit depth,
 rescaling, cropping, compression, standardization, anonymization and file types.
 Include information (source and version number) on leveraged software, libraries,
 or any other tools.
+
 d. If any data were missing (e.g. covariates etc.), it should be made clear how they
 were handled. Researchers should consider the bias that missing, replaced or
 imputed data might introduce.
@@ -210,11 +213,13 @@ in code as supplemental data. Specify the names and version numbers of all softw
 libraries, frameworks, and packages used. Further add information on the used
 hardware, in particular GPU specifications and used platforms (e.g. cloud vs. local
 cluster vs. on premise), possibly in the appendix.
+
 a. In particular for neural networks the parameter initialization is crucial. Name the
 applied initialization strategy/distribution (zero, uniform, standard normal, He
 [17], Glorot [18] etc). If transfer learning is applied, specify the source of the
 starting weights and if there is a combination of initialization and transfer learning,
 specify which parts of the model were initialized with which strategies.
+
 18. Training: Describe the training procedures in sufficient detail so that another researcher
 could reproduce the training process. Describe which data augmentation techniques
 were applied. State how the training process was monitored, and which criteria were
@@ -252,6 +257,7 @@ sample should be characterized demographically, but also towards the prevalence 
 condition of interest and the population’s risk profile to gauge its representativeness for
 the target population. If subgroups of severity have been defined, these should be
 characterized, too.
+
 a. The performance metrics on all data partitions should be provided. The final
 model’s performance on the test partition should be provided in detail and
 benchmarked against current technical standards or individual dentists.
@@ -266,10 +272,12 @@ ones additionally. Researchers should further provide information to understand
 incorrect predictions to help readers better understand the strengths and
 limitations of the model. Results from any explainability analyses should be
 presented and explored (e.g. as heatmaps, see above).
+
 24. Discussion: As mostly recommended, we also see four aspects which should be
 provided; a summary, a strengths and limitations sections, a section on findings and their
 implications, and one on future directions. The results should be briefly summed up and
 contrasted against the study aim and hypothesis.
+
 a. The study’s strengths, but more so limitations, especially towards data, the
 reference test, the applied metrics as well as associated biases, uncertainty,
 generalizability and robustness should be discussed. Necessary comparison with
@@ -278,6 +286,7 @@ their relevance for practice, including the potential clinical application of th
 model. Possible subsequent steps that one might take to build upon the provided
 results should be summed up and aspects which may hamper or facilitate
 successful translation into practice, research or teaching should be discussed.
+
 25. Other Information: Here, recommendations towards authorship and registration
 according to the International Committee of Medical Journal Editors (ICMJE) should be
 followed. The full study protocol may be linked in here, too. Sources of funding and the
