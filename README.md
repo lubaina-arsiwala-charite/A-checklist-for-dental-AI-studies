@@ -76,12 +76,14 @@ Reporting
 A range of items should be reported. Note that it may not be necessary to expand on each item
 in each study report, but that all items should be considered and, if not presented, this absence
 should be justified.
+
 10. Title: The title should clearly lay out that any kind of AI (deep learning, shallow machine
 learning, or more specifically the type of model like convolutional neural networks or
 random forests, among others) was used. Moreover, it should mention the study’s focus
 (diagnostic/prediction, development/validation), the clinical problem (e.g. caries
 detection on bitewings etc.) and the main outcome metric (accuracy, cost-effectiveness
 etc.)
+
 11. Abstract: The abstract should present a structured summary of the study’s aim, methods,
 results, and conclusion. The abstract should stand for itself and should be
 understandable without reading the main manuscript. That also means that the used
@@ -90,6 +92,7 @@ validation and testing datasets), the model and outcome metrics and the statisti
 analysis that was performed should be provided. The results section should provide full
 metrics, including measures of variance, for the primary outcome on the test (not only
 the training) dataset, and allow for any comparisons against alternatives.
+
 12. Introduction: The introduction should briefly sum up the dental background of the study,
 if there is one, and deduce the need for an AI solution. It should be made clear if there
 is a clinical, a research or a teaching problem. The introduction should then lay out the
