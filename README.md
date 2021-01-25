@@ -76,6 +76,7 @@ Reporting
 A range of items should be reported. Note that it may not be necessary to expand on each item
 in each study report, but that all items should be considered and, if not presented, this absence
 should be justified.
+
 10. Title: The title should clearly lay out that any kind of AI (deep learning, shallow machine
 learning, or more specifically the type of model like convolutional neural networks or
 random forests, among others) was used. Moreover, it should mention the study’s focus
